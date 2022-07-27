@@ -29,12 +29,12 @@ $('.form').submit((event) => {
     $('.search_pokemon').val('')
 })
 
-$(".btn-next").click(() => {
+$(".btn_next").click(() => {
     searchPokemon += 1
     getPokemon(searchPokemon)
 });
 
-$(".btn-prev").click(() => {
+$(".btn_prev").click(() => {
     if (searchPokemon > 1) {
         searchPokemon -= 1
         getPokemon(searchPokemon)
